@@ -1,0 +1,63 @@
+---
+title: "LanCarbon: From 0 to 1"
+short_title: "LanCarbon: From 0 to 1"
+description: Bilingual LanCarbon beginner tutorial.
+authors:
+  - name: Haojie Dai
+keywords:
+  - LanCarbon
+  - Jupyter Book
+  - MyST
+label: lc-home
+---
+
+
+# LanCarbon: From 0 to 1
+
+Welcome. This book is for a reader who has never used Jupyter Book, MyST Markdown, Git, or GitHub Pages. By the end, you will create a Book in LanCarbon, write and organize its pages, check it as a local website, and publish it online.
+
+You do not need to learn programming. LanCarbon keeps your writing in its own local data folder and presents the important actions as buttons. The supporting tools do specific jobs: Python and Jupyter Book turn your Book into a website; Git and GitHub CLI send that website to GitHub; GitHub Pages makes it public.
+
+Follow the four sections in order for your first Book:
+
+1. Install LanCarbon and understand the tools.
+2. Create, write, preview, and optionally export a source copy.
+3. Build and inspect the website on your computer.
+4. Connect GitHub, publish the website, and update it later.
+
+```text
+Write in LanCarbon → Build locally → Publish to GitHub Pages → Update when needed
+```
+
+The screenshots in this first draft show a real LanCarbon workspace. Account names, repository names, dates, and local folders are examples; use your own values.
+
+![The LanCarbon writing workspace](assets/2de495e4aed7eca98ea1cfbe93ff676026cc958d049bcddb5065b40f0e00e4d9.png)
+
+The LanCarbon workspace used throughout this book.
+
+---
+
+
+
+# LanCarbon：从 0 到 1
+
+欢迎阅读。本书面向从未接触过 Jupyter Book、MyST Markdown、Git 或 GitHub Pages 的新手。完成本书后，你将能够在 LanCarbon 中创建一本 Book，组织并撰写页面，在电脑上检查生成的网站，并将它在线发布。
+
+你不需要先学会编程。LanCarbon 把写作内容保存在自己的本地数据目录中，并把关键操作做成可点击的界面。几项配套工具各自完成一个明确任务：Python 和 Jupyter Book 把 Book 转换成网站；Git 和 GitHub CLI 把网站发送到 GitHub；GitHub Pages 让网站能够通过网络访问。
+
+第一次制作 Book 时，请按顺序完成四个 Section：
+
+1. 安装 LanCarbon 并理解所需工具。
+2. 创建、撰写、预览，并按需导出源文件副本。
+3. 在本地构建并检查网站。
+4. 连接 GitHub、发布网站，并在以后更新它。
+
+```text
+在 LanCarbon 中写作 → 本地 Build → 发布到 GitHub Pages → 按需 Update
+```
+
+本书初稿中的截图来自真实的 LanCarbon 工作区。账号、仓库、日期和本地目录均为示例，实际操作时请填写你自己的信息。
+
+![LanCarbon 写作工作区](assets/2de495e4aed7eca98ea1cfbe93ff676026cc958d049bcddb5065b40f0e00e4d9.png)
+
+本书后续章节使用的 LanCarbon 主界面。
