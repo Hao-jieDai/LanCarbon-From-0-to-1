@@ -11,6 +11,9 @@
     <loc>http://localhost:3000/installing-lancarbon</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/installation-location</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/required-tools</loc>
   </url>
   <url>
