@@ -30,7 +30,7 @@ The main workspace has four areas.
 
 ## 2. Page header
 
-**All changes saved** confirms that the latest text is on disk. **Edit / Preview** switches between Markdown source and rendered reading view. **Page Properties** opens export and page metadata. **Remove from Book** keeps the Note but removes it from this Book. The pin and trash controls pin or delete the current item.
+**All changes saved** confirms that the latest text is on disk. **Edit / Preview** switches between Markdown source and rendered reading view. Press **Ctrl+E** on Windows or **Cmd+E** on macOS to switch quickly. **Page Properties** opens export and page metadata. **Remove from Book** keeps the Note but removes it from this Book. The pin and trash controls pin or delete the current item.
 
 ## 3. Writing tools and editor
 
@@ -66,7 +66,7 @@ After a large edit, pause until **All changes saved** appears before closing the
 
 ## 2. 页面顶部
 
-**All changes saved** 表示最新文字已经写入磁盘。**Edit / Preview** 在 Markdown 源文和阅读预览之间切换。**Page Properties** 打开导出路径和页面元数据设置。**Remove from Book** 会把页面移出当前 Book，但保留对应 Note。图钉和垃圾桶分别用于置顶与删除当前项目。
+**All changes saved** 表示最新文字已经写入磁盘。**Edit / Preview** 在 Markdown 源文和阅读预览之间切换。在 Windows 上按 **Ctrl+E**，在 macOS 上按 **Cmd+E** 可以快速切换。**Page Properties** 打开导出路径和页面元数据设置。**Remove from Book** 会把页面移出当前 Book，但保留对应 Note。图钉和垃圾桶分别用于置顶与删除当前项目。
 
 ## 3. 写作工具与编辑区
 

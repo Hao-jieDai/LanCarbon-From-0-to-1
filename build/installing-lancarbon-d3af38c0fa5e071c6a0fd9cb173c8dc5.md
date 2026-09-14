@@ -14,6 +14,15 @@ label: lc-s1-install
 
 # Installing and Starting LanCarbon
 
+## Environment Setup on first launch
+
+The first-launch ReadMe introduces **Environment Setup** after the writing workspace is ready. You may begin writing immediately and open Setup when needed. Install tools only when you need Build or Publish; each item is independent and a failed download does not affect Notes or Books.
+
+## 首次启动的 Environment Setup
+
+写作工作区准备完成后，首次启动 ReadMe 会介绍 **Environment Setup**。你可以直接开始写作，需要时再打开 Setup。只有需要 Build 或 Publish 时才安装相应工具；各项安装互相独立，下载失败不会影响 Notes 或 Books。
+
+
 ## Before installation
 
 Download LanCarbon only from the project page or another source identified by the maintainer. The Windows installer has a name similar to `LanCarbon-x.y.z-x64-Setup.exe`; `x.y.z` is the version number. Keep the installer until you have confirmed that the application starts correctly.

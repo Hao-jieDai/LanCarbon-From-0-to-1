@@ -15,6 +15,11 @@ label: lc-s5-workflow
 
 # Preview, Build, Publish, and Accept the Sample
 
+> Before Build or Publish, open **Environment Setup** and resolve the relevant failed checks. You can return to it directly from either panel.
+
+> 执行 Build 或 Publish 前，请打开 **Environment Setup** 并处理相应的失败检查；两个面板都可以直接进入该页面。
+
+
 ## Complete the Final Checklist page
 
 Enter this short checklist into the sample Book's `Final Checklist` page:

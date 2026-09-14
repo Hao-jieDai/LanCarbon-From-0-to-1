@@ -13,6 +13,12 @@ label: lc-home
 
 # LanCarbon: From 0 to 1
 
+> **System-managed tutorial — do not edit / 系统管理教程——请勿编辑**
+>
+> LanCarbon automatically synchronizes and overwrites this Book during software updates. Do not store personal edits in this Book. LanCarbon is not responsible for content lost because this system tutorial was edited.
+>
+> LanCarbon 会在软件更新时自动同步并覆盖本 Book。请勿在本 Book 中保存个人修改；因自行编辑这本系统教程而造成的内容丢失，LanCarbon 不承担责任。
+
 ```{image} assets/8405f88769f513467cc1aa25973fa97e6ad60427ff943279ab2d299a3d70ca75.png
 :width: 50%
 :align: center

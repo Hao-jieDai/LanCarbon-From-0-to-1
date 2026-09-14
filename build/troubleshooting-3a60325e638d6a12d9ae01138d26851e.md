@@ -16,6 +16,18 @@ label: lc-s4-errors
 
 Use the exact current message and the failed status card. Fix one cause, select **Refresh Checks**, and retry once.
 
+## A managed installation reports that the Tools folder is not writable
+
+Open **Environment Setup** and select **Repair folder permissions**. Approve the Windows confirmation if it appears, then refresh and retry. The repair applies only to LanCarbon's managed `Tools` folder and does not change Notes or Books.
+
+## A managed installation cannot create or rename a temporary folder
+
+Windows security software or a recently completed process may still be holding the folder. LanCarbon waits progressively longer and retries these transient errors automatically. If all retries are exhausted, close programs scanning `LanCarbon\Tools`, wait a moment, refresh Environment Setup, and retry. If the writable-folder card fails, repair its permissions first.
+
+## Jupyter Book installation reports that Node.js is missing
+
+Jupyter Book 2 uses a Node.js-based MyST engine. Environment Setup checks Node.js independently and can install a managed copy. Refresh the page and install Node.js, or retry Jupyter Book 2 so LanCarbon can prepare the missing dependency automatically.
+
 ## GitHub CLI is installed but not detected
 
 Restart LanCarbon after installation. Confirm `gh --version` works in a new terminal. If the terminal finds it but LanCarbon does not, reinstall GitHub CLI in its standard Windows location and restart the computer. Use the current LanCarbon release, which also checks the standard Program Files location.
@@ -60,9 +72,9 @@ A dependency warning such as Node's `url.parse()` deprecation may not be a Book 
 
 Choose a new empty folder. Export deliberately avoids overwriting externally managed files. Build does not need this export.
 
-## Python, Jupyter Book, Git, or GitHub CLI is missing
+## Python, Node.js, Jupyter Book, Git, or GitHub CLI is missing
 
-Install the tool from its official source, restart LanCarbon, and reopen the relevant window. Build checks Python/Jupyter Book; Publish checks Git/GitHub CLI/account/network.
+Install the tool from its official source, restart LanCarbon, and reopen the relevant window. Build checks Python/Node.js/Jupyter Book; Publish checks Git/GitHub CLI/account/network.
 
 ## A public update still shows yesterday's version
 
@@ -79,6 +91,18 @@ Record the LanCarbon version, Book title, repository name, failed card, full err
 # 常见问题处理
 
 以当前实际错误文字和失败卡片为准。一次只修复一个原因，点击 **Refresh Checks**，然后重试一次。
+
+## 受管理安装提示 Tools 文件夹不可写
+
+打开 **Environment Setup**，点击 **Repair folder permissions**。如果 Windows 显示确认窗口，请允许本次操作，然后刷新并重试。修复只作用于 LanCarbon 管理的 `Tools` 文件夹，不会修改 Notes 或 Books。
+
+## 受管理安装无法创建或重命名临时文件夹
+
+Windows 安全软件或刚结束的进程可能仍在占用文件夹。LanCarbon 会逐渐延长等待时间并自动重试这类偶发错误。如果全部重试仍失败，请关闭可能扫描 `LanCarbon\Tools` 的程序，稍等片刻，刷新 Environment Setup 后重试；若文件夹可写性卡片失败，请先修复权限。
+
+## 安装 Jupyter Book 时提示缺少 Node.js
+
+Jupyter Book 2 使用基于 Node.js 的 MyST 引擎。Environment Setup 会独立检查 Node.js，也可以安装受管理副本。刷新页面后安装 Node.js，或直接重试 Jupyter Book 2，让 LanCarbon 自动准备缺失依赖。
 
 ## 已安装 GitHub CLI，但软件检测不到
 
@@ -124,9 +148,9 @@ Record the LanCarbon version, Book title, repository name, failed card, full err
 
 选择一个新的空文件夹。Export 为了保护外部文件而不会覆盖非空目录。Build 不需要这份 export。
 
-## 缺少 Python、Jupyter Book、Git 或 GitHub CLI
+## 缺少 Python、Node.js、Jupyter Book、Git 或 GitHub CLI
 
-从官方来源安装，重启 LanCarbon，再打开相关窗口。Build 检查 Python/Jupyter Book；Publish 检查 Git/GitHub CLI/账号/网络。
+从官方来源安装，重启 LanCarbon，再打开相关窗口。Build 检查 Python/Node.js/Jupyter Book；Publish 检查 Git/GitHub CLI/账号/网络。
 
 ## 在线仍显示昨天的版本
 

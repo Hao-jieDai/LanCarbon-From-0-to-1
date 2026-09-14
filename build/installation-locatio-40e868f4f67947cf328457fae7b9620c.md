@@ -14,6 +14,15 @@ label: lc-s1-storage
 
 # Choosing the Installation Location and Understanding LanCarbon Folders
 
+## Tools folder
+
+The installer also creates `LanCarbon\Tools` beside the other managed folders. Environment Setup places optional managed copies of Python, Node.js, Jupyter Book, Git and GitHub CLI here. Temporary downloads remain in Temp, and moving Data does not move Tools. Include Tools in a complete offline migration, or let Environment Setup download it again.
+
+## Tools 文件夹
+
+安装器还会在其他受管理目录旁创建 `LanCarbon\Tools`。Environment Setup 将可选的 Python、Node.js、Jupyter Book、Git 和 GitHub CLI 受管理版本放在这里。临时下载仍放在 Temp；单独迁移 Data 不会迁移 Tools。完整离线迁移时可以备份 Tools，也可以在新电脑上让 Environment Setup 重新下载。
+
+
 LanCarbon keeps the files it manages under one **LanCarbon root folder**. This makes the application easier to move, back up, inspect, and remove without scattering large caches and Book builds across the system drive.
 
 ## The default location
@@ -57,7 +66,8 @@ LanCarbon\
 ├─ Cache\
 ├─ Temp\
 ├─ Builds\
-└─ Exports\
+├─ Exports\
+└─ Tools\
 ```
 
 | Folder | Purpose | Backup priority |
@@ -69,12 +79,13 @@ LanCarbon\
 | `Temp` | Temporary Book preparation and GitHub publishing checkouts. | Do not back up. Completed operations remove their temporary working folders. |
 | `Builds` | The default parent for local websites produced by Build. | Optional but useful when you want to keep built HTML. Source content remains in Data. |
 | `Exports` | The default starting place for independent source copies made with Export. | Back up any export you intentionally keep. Each export still requires an empty destination folder. |
+| `Tools` | Optional Python, Node.js, Jupyter Book, Git and GitHub CLI copies installed by Environment Setup. | Optional; keep for an offline migration or download again. |
 
 ## What uses the C drive
 
 Choosing a D- or E-drive root directs LanCarbon's managed data, configuration, cache, temporary work, builds, and Export starting location to that drive. Windows itself may still use the system drive briefly for installer bookkeeping, shortcuts, registry information, crash handling, or operating-system temporary activity. LanCarbon cannot redirect those Windows services, but it no longer chooses a C-drive application-data folder for its own persistent cache.
 
-Python, Jupyter Book, Git, and GitHub CLI are separate tools. Their installers decide their locations; changing the LanCarbon root does not move them. See **Tools Required from Writing to Publishing** for their installation and verification.
+Environment Setup can keep Python, Node.js, Jupyter Book, Git, and GitHub CLI below `Tools`; manual system installations remain supported. Moving only Data does not move these tools. See **Tools Required from Writing to Publishing** for their installation and verification.
 
 ## Backup and migration
 
@@ -140,7 +151,8 @@ LanCarbon\
 ├─ Cache\
 ├─ Temp\
 ├─ Builds\
-└─ Exports\
+├─ Exports\
+└─ Tools\
 ```
 
 | 文件夹 | 用途 | 备份建议 |
@@ -152,12 +164,13 @@ LanCarbon\
 | `Temp` | Build 准备过程和 GitHub Publish 的临时工作目录。 | 不需要备份；正常完成或失败后会清理对应临时目录。 |
 | `Builds` | Build 生成本地网站时的默认父目录。 | 可选；需要保留已构建 HTML 时可以备份，源内容仍在 Data 中。 |
 | `Exports` | Export 独立源文件副本时的默认起始位置。 | 有意保留的导出副本可以备份；每次 Export 仍需要选择空目标文件夹。 |
+| `Tools` | Environment Setup 安装的可选 Python、Node.js、Jupyter Book、Git 和 GitHub CLI。 | 可选；离线迁移时保留，或在新电脑重新下载。 |
 
 ## C 盘还会发生什么
 
 选择 D 盘或 E 盘根目录后，LanCarbon 自己管理的数据、配置、缓存、临时发布文件、Build 结果和 Export 起始位置都会优先位于所选磁盘。Windows 仍可能为了安装记录、快捷方式、注册信息、崩溃处理或系统临时操作而短暂使用系统盘，这些属于操作系统行为，LanCarbon 无法全部重定向。不过，LanCarbon 不再主动把自己的长期缓存放到 C 盘的应用数据目录中。
 
-Python、Jupyter Book、Git 和 GitHub CLI 是独立工具，它们由各自的安装器决定位置。更改 LanCarbon 根目录不会移动这些工具。安装与检查方法请阅读 **Tools Required from Writing to Publishing**。
+Environment Setup 可以把 Python、Node.js、Jupyter Book、Git 和 GitHub CLI 安装在 `Tools` 下，同时仍支持手动安装的系统工具。只迁移 Data 不会移动这些工具。安装与检查方法请阅读 **Tools Required from Writing to Publishing**。
 
 ## 备份与迁移
 
