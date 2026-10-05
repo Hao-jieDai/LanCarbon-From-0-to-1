@@ -17,7 +17,7 @@ label: lc-s5-plan
 
 ## Create the Book
 
-1. Switch the left sidebar to **Jupyter Book**.
+1. Switch the left sidebar to **Books**.
 2. Select the **+** button beside the Book selector.
 3. Enter `My First Carbon Book` as the title and confirm.
 4. Select the new Book before adding pages.
@@ -65,7 +65,7 @@ The Home page answers “What is this Book?” The first Section contains subjec
 
 ## 创建 Book
 
-1. 把左侧栏切换到 **Jupyter Book**。
+1. 把左侧栏切换到 **Books**。
 2. 点击 Book 选择框旁边的 **+**。
 3. 标题填写 `My First Carbon Book` 并确认。
 4. 添加页面前，确认当前选择的是这本新 Book。

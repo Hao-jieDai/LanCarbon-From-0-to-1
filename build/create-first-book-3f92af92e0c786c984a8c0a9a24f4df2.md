@@ -16,7 +16,7 @@ label: lc-s2-create
 
 ## Create the Book
 
-1. Select **Jupyter Book** in the sidebar.
+1. Select **Books** in the sidebar.
 2. Select the plus button beside the Book selector.
 3. Enter a clear title and confirm. LanCarbon creates the Book and its home page.
 4. Open **Settings** and complete the key metadata described on the next page.
@@ -45,6 +45,8 @@ My First Book
 
 Select the home page, then choose **+ Section**. Give the Section a meaningful title. Select that Section and choose **+ Child Page**. Repeat for other pages. Use the Book tree's supported drag-and-drop behavior to reorder pages or move them between Sections.
 
+Click the triangle before any page with children to fold or unfold that branch. The title button still selects the page. Folding only changes the view: it does not remove pages or change exported navigation. Each Book remembers its folds, and a newly created child is made visible automatically.
+
 Use one subject per page. Short pages are easier to navigate, review, and update. Give every page a unique export path and a visible first-level heading that matches its purpose.
 
 ## Removing versus deleting
@@ -59,7 +61,7 @@ Use one subject per page. Short pages are easier to navigate, review, and update
 
 ## 创建 Book
 
-1. 在侧边栏选择 **Jupyter Book**。
+1. 在侧边栏选择 **Books**。
 2. 点击 Book 下拉框旁边的加号。
 3. 输入清晰的书名并确认。LanCarbon 会创建 Book 及其首页。
 4. 打开 **Settings**，填写下一页说明的关键元数据。
@@ -87,6 +89,8 @@ My First Book
 ## 添加和整理页面
 
 先选中首页，再点击 **+ Section**，给 Section 一个明确标题。随后选中该 Section，点击 **+ Child Page**。其他页面依此添加。使用 Book 目录支持的拖放操作调整顺序，或把页面移动到其他 Section。
+
+点击带有子页面的页面前的三角形，展开或收起该分支；标题按钮仍用于选择页面。折叠只改变显示，不会删除页面或改变导出导航。每本 Book 分别记住折叠状态，新建子页面时会自动让它可见。
 
 建议每个页面只讲一个主题。较短的页面更容易导航、检查和更新。每页都应有唯一的 Export Path，并在正文开头写一个符合页面用途的一级标题。
 

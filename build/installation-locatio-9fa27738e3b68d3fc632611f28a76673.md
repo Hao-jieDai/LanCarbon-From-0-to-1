@@ -67,6 +67,7 @@ LanCarbon\
 ├─ Temp\
 ├─ Builds\
 ├─ Exports\
+├─ PDFs\
 └─ Tools\
 ```
 
@@ -79,11 +80,12 @@ LanCarbon\
 | `Temp` | Temporary Book preparation and GitHub publishing checkouts. | Do not back up. Completed operations remove their temporary working folders. |
 | `Builds` | The default parent for local websites produced by Build. | Optional but useful when you want to keep built HTML. Source content remains in Data. |
 | `Exports` | The default starting place for independent source copies made with Export. | Back up any export you intentionally keep. Each export still requires an empty destination folder. |
+| `PDFs` | The default destination for single-page PDF exports; other destinations can still be chosen. Created on installation or startup; existing PDFs are not moved. | Back up PDF files you want to keep. |
 | `Tools` | Optional Python, Node.js, Jupyter Book, Git and GitHub CLI copies installed by Environment Setup. | Optional; keep for an offline migration or download again. |
 
 ## What uses the C drive
 
-Choosing a D- or E-drive root directs LanCarbon's managed data, configuration, cache, temporary work, builds, and Export starting location to that drive. Windows itself may still use the system drive briefly for installer bookkeeping, shortcuts, registry information, crash handling, or operating-system temporary activity. LanCarbon cannot redirect those Windows services, but it no longer chooses a C-drive application-data folder for its own persistent cache.
+Choosing a D- or E-drive root directs LanCarbon's managed data, configuration, cache, temporary work, builds, PDFs, and Export starting location to that drive. Windows itself may still use the system drive briefly for installer bookkeeping, shortcuts, registry information, crash handling, or operating-system temporary activity. LanCarbon cannot redirect those Windows services, but it no longer chooses a C-drive application-data folder for its own persistent cache.
 
 Environment Setup can keep Python, Node.js, Jupyter Book, Git, and GitHub CLI below `Tools`; manual system installations remain supported. Moving only Data does not move these tools. See **Tools Required from Writing to Publishing** for their installation and verification.
 
@@ -102,7 +104,7 @@ Avoid moving individual files while LanCarbon is running. A Book can reference m
 
 ## Uninstalling
 
-The program is installed in `Application`; your writing is stored beside it in `Data`. Before uninstalling, make a backup of the root. After uninstalling, inspect the root before deleting anything that remains. Retained `Data`, `Builds`, or `Exports` may still contain work you want.
+The program is installed in `Application`; your writing is stored beside it in `Data`. Before uninstalling, make a backup of the root. After uninstalling, inspect the root before deleting anything that remains. Retained `Data`, `Builds`, `Exports`, or `PDFs` may still contain work you want.
 
 ---
 
@@ -152,6 +154,7 @@ LanCarbon\
 ├─ Temp\
 ├─ Builds\
 ├─ Exports\
+├─ PDFs\
 └─ Tools\
 ```
 
@@ -164,11 +167,12 @@ LanCarbon\
 | `Temp` | Build 准备过程和 GitHub Publish 的临时工作目录。 | 不需要备份；正常完成或失败后会清理对应临时目录。 |
 | `Builds` | Build 生成本地网站时的默认父目录。 | 可选；需要保留已构建 HTML 时可以备份，源内容仍在 Data 中。 |
 | `Exports` | Export 独立源文件副本时的默认起始位置。 | 有意保留的导出副本可以备份；每次 Export 仍需要选择空目标文件夹。 |
+| `PDFs` | 单页 PDF 的默认保存位置，仍可自行选择其他位置。安装或启动时创建，已有 PDF 不自动搬移。 | 需要保留的 PDF 应备份。 |
 | `Tools` | Environment Setup 安装的可选 Python、Node.js、Jupyter Book、Git 和 GitHub CLI。 | 可选；离线迁移时保留，或在新电脑重新下载。 |
 
 ## C 盘还会发生什么
 
-选择 D 盘或 E 盘根目录后，LanCarbon 自己管理的数据、配置、缓存、临时发布文件、Build 结果和 Export 起始位置都会优先位于所选磁盘。Windows 仍可能为了安装记录、快捷方式、注册信息、崩溃处理或系统临时操作而短暂使用系统盘，这些属于操作系统行为，LanCarbon 无法全部重定向。不过，LanCarbon 不再主动把自己的长期缓存放到 C 盘的应用数据目录中。
+选择 D 盘或 E 盘根目录后，LanCarbon 自己管理的数据、配置、缓存、临时发布文件、Build 结果、PDF 默认保存位置和 Export 起始位置都会优先位于所选磁盘。Windows 仍可能为了安装记录、快捷方式、注册信息、崩溃处理或系统临时操作而短暂使用系统盘，这些属于操作系统行为，LanCarbon 无法全部重定向。不过，LanCarbon 不再主动把自己的长期缓存放到 C 盘的应用数据目录中。
 
 Environment Setup 可以把 Python、Node.js、Jupyter Book、Git 和 GitHub CLI 安装在 `Tools` 下，同时仍支持手动安装的系统工具。只迁移 Data 不会移动这些工具。安装与检查方法请阅读 **Tools Required from Writing to Publishing**。
 
@@ -187,4 +191,4 @@ Environment Setup 可以把 Python、Node.js、Jupyter Book、Git 和 GitHub CLI
 
 ## 卸载
 
-程序位于 `Application`，写作数据位于同级的 `Data`。卸载前请先备份根目录。卸载完成后，在删除残留目录前先检查其中内容；保留下来的 `Data`、`Builds` 或 `Exports` 仍可能包含需要的作品。
+程序位于 `Application`，写作数据位于同级的 `Data`。卸载前请先备份根目录。卸载完成后，在删除残留目录前先检查其中内容；保留下来的 `Data`、`Builds`、`Exports` 或 `PDFs` 仍可能包含需要的作品。

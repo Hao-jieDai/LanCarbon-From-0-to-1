@@ -25,6 +25,8 @@ Check the following:
 5. Equations and special MyST content render as expected.
 6. There are no visible placeholders left from toolbar templates.
 
+**Export PDF** uses the same supported reading content as Preview, with A4 pagination and without editor controls. Check Preview notices and inspect the saved PDF, especially wide equations, large images and long tables.
+
 Preview is page-focused and optimized for writing. It is not the complete Book website and does not replace Build. Navigation, theme assets, final cross-references, publication paths, and official MyST/Jupyter Book compatibility must be checked in the local built website.
 
 If Preview differs from the built website, treat the successful official Build as the publication reference. First inspect the source around the affected block, then rebuild. Unsupported or unsafe embedded content may remain as source or show a notice instead of running inside the desktop application.
@@ -45,6 +47,8 @@ If Preview differs from the built website, treat the successful official Build a
 4. 图片宽度、对齐、替代文字和 caption 是否正确。
 5. 公式和特殊 MyST 内容是否符合预期。
 6. 工具栏模板中是否还残留未替换的占位文字。
+
+**Export PDF** 使用与 Preview 相同的受支持阅读内容，采用 A4 分页并移除编辑界面。请检查 Preview 注意事项和导出的 PDF，尤其注意较宽公式、大图片和长表格。
 
 Preview 以当前页面和写作效率为重点，它不是完整 Book 网站，也不能取代 Build。网站导航、主题资源、最终交叉引用、发布路径以及 MyST/Jupyter Book 官方兼容性，都需要在本地构建的网站中检查。
 
