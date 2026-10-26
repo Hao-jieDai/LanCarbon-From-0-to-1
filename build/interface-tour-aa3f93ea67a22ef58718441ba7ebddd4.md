@@ -20,7 +20,7 @@ The main workspace has four areas.
 
 ## 1. Sidebar
 
-- **Notes / Books** switches between independent notes and structured Books. Press **Ctrl+Q** to switch quickly while keeping the selected Note or Book page; a **Q** hint is embedded at the right of the Books tab, with **Ctrl+Q** shown on hover and does not switch workspaces while a dialog is open.
+- The workspace buttons form a **2×2 grid**, with **Notes / Books** above **Workshop / Library**. **Notes / Books** switches between independent notes and structured Books. Press **Ctrl+Q** to switch quickly while keeping the selected Note or Book page; a **Q** hint is embedded at the right of the Books tab, with **Ctrl+Q** shown on hover and does not switch workspaces while a dialog is open.
 - **Sort by** orders the Notes list or Book selector by **Last modified**, **Date created** (newest first) or **Name (A–Z)**. Pinned Notes stay first. Notes and Books remember their sorting choices independently across restarts. A Book's last-modified time also includes edits to its pages; sorting the selector does not change the Book's table of contents or export order.
 - The Book selector opens a different Book; the plus button creates one.
 - **+ Section** creates a top-level organizing page. **+ Child Page** creates a page under the current selection.
@@ -44,6 +44,9 @@ The editor shows line numbers and stores plain Markdown text. The tag box below 
 ## 4. A useful habit
 
 After a large edit, pause until **All changes saved** appears before closing the application, changing Data Location, or starting a Build.
+
+
+Use **Collapse sidebar** beside the Logo to hide the workspace sidebar. The menu button at the upper left of the content shows it again. Notes, Books, Workshop, Library and PDF reading share this control; the desktop collapse preference is remembered across restarts. On narrow windows the sidebar opens as a drawer.
 
 ---
 
@@ -81,3 +84,10 @@ After a large edit, pause until **All changes saved** appears before closing the
 ## 4. 一个实用习惯
 
 完成较大修改后，先等待 **All changes saved** 出现，再关闭软件、修改 Data Location 或开始 Build。
+
+
+Read [Workshop and Library](../06-research-library/index.md) for workspace and resource guidance.
+
+工作区与资料管理详见 [Workshop 与 Library](../06-research-library/index.md)。
+
+点击 Logo 旁的 **Collapse sidebar** 可收起工作区侧栏，点击内容区左上角的菜单按钮再次展开。Notes、Books、Workshop、Library 与 PDF 阅读共用此操作，桌面侧栏状态在重启后保留；窄窗口使用抽屉式侧栏。

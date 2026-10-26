@@ -47,7 +47,10 @@ Import a valid bibliography file from **Citations**, then insert entries by cita
 
 ## Backups
 
-A complete manual backup includes `notes.json`, `assets.json`, and the `assets` folder from Data Location. Copy them together while LanCarbon is closed.
+A complete manual backup includes `notes.json` and `assets.json` from the actual Data Location, together with root `Library/assets`. Copy both data and original files while LanCarbon is closed.
+
+
+**Attach from Library:** Attach file starts in root Library. Choosing an imported original reuses its current display name and stable reference without copying the original into assets. Rename, move and later versions retain that reference; it reads current contents. Removing a linked resource in Resources removes writing references while keeping the imported original. Open the original in Library to edit it externally; saved changes create versions.
 
 ---
 
@@ -88,4 +91,7 @@ LanCarbon 会把导入的文件复制到受管理的数据目录中。因此即�
 
 ## 备份
 
-完整手动备份应同时包含 Data Location 中的 `notes.json`、`assets.json` 和 `assets` 文件夹。请关闭 LanCarbon 后一起复制。
+完整手动备份应包含实际 Data Location 中的 `notes.json`、`assets.json`，以及根目录 `Library/assets` 中的原始文件。请关闭 LanCarbon 后同时复制数据和原始文件。
+
+
+**从 Library 附加：** Attach file 默认打开根目录 Library，选择导入原件时沿用当前显示名与稳定引用，不再复制一份到 assets。改名、移动和后续版本保留引用，并读取当前内容。在 Resources 删除关联资源时移除写作引用，导入原件仍保留。需要外部编辑时从 Library 打开原件，保存变化会登记为新版本。

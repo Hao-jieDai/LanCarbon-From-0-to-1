@@ -1,115 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:3004/sitemap_style.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3000/sitemap_style.xsl" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:3004</loc>
+    <loc>http://localhost:3000</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/index-1</loc>
+    <loc>http://localhost:3000/index-1</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/installing-lancarbon</loc>
+    <loc>http://localhost:3000/installing-lancarbon</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/installation-location</loc>
+    <loc>http://localhost:3000/installation-location</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/required-tools</loc>
+    <loc>http://localhost:3000/required-tools</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/interface-tour</loc>
+    <loc>http://localhost:3000/interface-tour</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/index-2</loc>
+    <loc>http://localhost:3000/index-2</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/create-first-book</loc>
+    <loc>http://localhost:3000/create-first-book</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/book-settings</loc>
+    <loc>http://localhost:3000/book-settings</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/page-properties</loc>
+    <loc>http://localhost:3000/page-properties</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/markdown-toolbar</loc>
+    <loc>http://localhost:3000/markdown-toolbar</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/myst-directives</loc>
+    <loc>http://localhost:3000/myst-directives</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/resources</loc>
+    <loc>http://localhost:3000/resources</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/preview</loc>
+    <loc>http://localhost:3000/preview</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/export</loc>
+    <loc>http://localhost:3000/export</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/index-3</loc>
+    <loc>http://localhost:3000/index-3</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/build-concepts</loc>
+    <loc>http://localhost:3000/build-concepts</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/build-requirements</loc>
+    <loc>http://localhost:3000/build-requirements</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/first-build</loc>
+    <loc>http://localhost:3000/first-build</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/rebuild</loc>
+    <loc>http://localhost:3000/rebuild</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/index-4</loc>
+    <loc>http://localhost:3000/index-4</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/publish-concepts</loc>
+    <loc>http://localhost:3000/publish-concepts</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/github-setup</loc>
+    <loc>http://localhost:3000/github-setup</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/network</loc>
+    <loc>http://localhost:3000/network</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/publish-window</loc>
+    <loc>http://localhost:3000/publish-window</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/first-publish</loc>
+    <loc>http://localhost:3000/first-publish</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/update</loc>
+    <loc>http://localhost:3000/update</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/troubleshooting</loc>
+    <loc>http://localhost:3000/troubleshooting</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/checklist</loc>
+    <loc>http://localhost:3000/checklist</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/index-5</loc>
+    <loc>http://localhost:3000/index-5</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/project-plan</loc>
+    <loc>http://localhost:3000/project-plan</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/book-settings-1</loc>
+    <loc>http://localhost:3000/book-settings-1</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/page-properties-1</loc>
+    <loc>http://localhost:3000/page-properties-1</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/page-templates</loc>
+    <loc>http://localhost:3000/page-templates</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/formatting-playground</loc>
+    <loc>http://localhost:3000/formatting-playground</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/resources-and-citations</loc>
+    <loc>http://localhost:3000/resources-and-citations</loc>
   </url>
   <url>
-    <loc>http://localhost:3004/build-publish-checklist</loc>
+    <loc>http://localhost:3000/build-publish-checklist</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/index-6</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/workspaces</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/library</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/pdf-reading</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/pdf-ocr</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/epub-reading</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/recovery</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/ai-settings</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/chat</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/usage</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/translation</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/knowledge</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/retrieval</loc>
   </url>
 </urlset>

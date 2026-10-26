@@ -42,7 +42,7 @@ If Windows has no D drive, the installer proposes a LanCarbon folder inside your
 You may place the root elsewhere, for example:
 
 ```text
-E:\Writing\Research\LanCarbon
+E:\Writing\Workshop\LanCarbon
 ```
 
 For a first installation, two rules apply:
@@ -62,6 +62,10 @@ After installation, the selected root has this structure:
 LanCarbon\
 ├─ Application\
 ├─ Data\
+├─ Library\
+│  ├─ assets\
+│  ├─ Imports\
+│  └─ AI-Paper\
 ├─ Config\
 ├─ Cache\
 ├─ Temp\
@@ -74,7 +78,8 @@ LanCarbon\
 | Folder | Purpose | Backup priority |
 |---|---|---|
 | `Application` | LanCarbon program files and bundled resources. | Reinstallable; normally omit from a content-only backup. |
-| `Data` | Notes, Books, page text, imported images, attachments, and bibliography files. | Essential. This is your primary content. |
+| `Data` | Notes, Books, page text, resource catalogs and research records. | Essential. This is your writing and management data. |
+| `Library` | Original images, attachments and bibliography files under assets, plus Imports and AI-Paper materials. | Essential together with Data. |
 | `Config` | Window preferences, the selected Data Location, and remembered Build and Export locations. | Recommended if you want the same setup after restoration. |
 | `Cache` | Reusable runtime material, including the bundled Jupyter Book theme cache. | Optional; LanCarbon can recreate it. |
 | `Temp` | Temporary Book preparation and GitHub publishing checkouts. | Do not back up. Completed operations remove their temporary working folders. |
@@ -91,7 +96,7 @@ Environment Setup can keep Python, Node.js, Jupyter Book, Git, and GitHub CLI be
 
 ## Backup and migration
 
-The safest complete backup is a copy of the entire LanCarbon root while the application is closed. For a smaller content backup, keep at least `Data`; include `Config` if you also want remembered locations and window preferences.
+The safest complete backup is a copy of the entire LanCarbon root while the application is closed. For a smaller content backup, keep at least the actual `Data` location and root `Library`; include `Config` if you also want remembered locations and window preferences.
 
 Before moving the root manually:
 
@@ -129,7 +134,7 @@ D:\LanCarbon
 可以选择其他磁盘或更深的父目录，例如：
 
 ```text
-E:\Writing\Research\LanCarbon
+E:\Writing\Workshop\LanCarbon
 ```
 
 首次安装需要同时满足两项规则：
@@ -149,6 +154,10 @@ E:\Writing\Research\LanCarbon
 LanCarbon\
 ├─ Application\
 ├─ Data\
+├─ Library\
+│  ├─ assets\
+│  ├─ Imports\
+│  └─ AI-Paper\
 ├─ Config\
 ├─ Cache\
 ├─ Temp\
@@ -161,7 +170,8 @@ LanCarbon\
 | 文件夹 | 用途 | 备份建议 |
 |---|---|---|
 | `Application` | LanCarbon 程序文件和随软件提供的资源。 | 可以重新安装；只备份内容时通常不需要。 |
-| `Data` | Notes、Books、页面正文、导入的图片、附件和参考文献文件。 | 必须备份，这是最主要的内容。 |
+| `Data` | Notes、Books、页面正文、资源目录记录和研究管理数据。 | 必须备份，这是写作与管理数据。 |
+| `Library` | assets 中的图片、附件和文献库原文，以及 Imports 和 AI-Paper 资料。 | 必须与 Data 一起备份。 |
 | `Config` | 窗口偏好、Data Location，以及每本 Book 记住的 Build 和 Export 位置。 | 希望恢复原有使用状态时建议备份。 |
 | `Cache` | 可重复生成的运行缓存，包括随安装包提供的 Jupyter Book 主题缓存。 | 可选，LanCarbon 可以重新生成。 |
 | `Temp` | Build 准备过程和 GitHub Publish 的临时工作目录。 | 不需要备份；正常完成或失败后会清理对应临时目录。 |
@@ -178,7 +188,7 @@ Environment Setup 可以把 Python、Node.js、Jupyter Book、Git 和 GitHub CLI
 
 ## 备份与迁移
 
-最稳妥的完整备份方式是在关闭软件后复制整个 LanCarbon 根目录。如果只备份写作内容，至少保留 `Data`；希望同时恢复记住的路径和窗口偏好时，再保留 `Config`。
+最稳妥的完整备份方式是在关闭软件后复制整个 LanCarbon 根目录。如果只备份写作内容，至少保留实际 `Data` 位置和根目录 `Library`；希望同时恢复记住的路径和窗口偏好时，再保留 `Config`。
 
 手动迁移前建议按以下顺序操作：
 
@@ -192,3 +202,8 @@ Environment Setup 可以把 Python、Node.js、Jupyter Book、Git 和 GitHub CLI
 ## 卸载
 
 程序位于 `Application`，写作数据位于同级的 `Data`。卸载前请先备份根目录。卸载完成后，在删除残留目录前先检查其中内容；保留下来的 `Data`、`Builds`、`Exports` 或 `PDFs` 仍可能包含需要的作品。
+
+
+Original files are stored in root Library; Library/Workshop management records belong to the actual Data folder. See [Browsing Your Library](../06-research-library/library.md) and [Backup and recovery](../06-research-library/recovery.md).
+
+原始资料存放在根目录 Library，Library/Workshop 管理记录归属实际 Data 目录。详见 [浏览 Library](../06-research-library/library.md) 和 [备份与恢复](../06-research-library/recovery.md)。
