@@ -14,6 +14,9 @@
     <loc>http://localhost:3000/installation-location</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/recovery</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/required-tools</loc>
   </url>
   <url>
@@ -116,22 +119,16 @@
     <loc>http://localhost:3000/index-6</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/workspaces</loc>
+    <loc>http://localhost:3000/management</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/library</loc>
+    <loc>http://localhost:3000/reading</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/pdf-reading</loc>
+    <loc>http://localhost:3000/index-7</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/pdf-ocr</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/epub-reading</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/recovery</loc>
+    <loc>http://localhost:3000/overview</loc>
   </url>
   <url>
     <loc>http://localhost:3000/ai-settings</loc>
@@ -140,15 +137,12 @@
     <loc>http://localhost:3000/chat</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/usage</loc>
-  </url>
-  <url>
     <loc>http://localhost:3000/translation</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/knowledge</loc>
+    <loc>http://localhost:3000/usage</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/retrieval</loc>
+    <loc>http://localhost:3000/knowledge</loc>
   </url>
 </urlset>
